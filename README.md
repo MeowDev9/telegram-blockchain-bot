@@ -1,8 +1,8 @@
-# 🤖 CryptoPaws - Telegram Blockchain Bot
+# CryptoPaws - Telegram Blockchain Bot
 
-A powerful Telegram bot for Ethereum blockchain interactions, built with Python and the python-telegram-bot library.
+A Python-based Telegram bot that integrates with Ethereum blockchain to provide real-time price, wallet, transaction, and token data.
 
-## ✨ Features
+##  Features
 
 - 💰 **ETH Price**: Get real-time Ethereum price from CoinGecko
 - 📊 **Wallet Balance**: Check ETH balance for any wallet address
@@ -11,7 +11,7 @@ A powerful Telegram bot for Ethereum blockchain interactions, built with Python 
 - 🪙 **Token Balance**: Check ERC20 token balances (USDT, USDC, DAI, LINK, UNI, MKR)
 - 📱 **Interactive Menus**: User-friendly button-based navigation
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 telegram-blockchain-bot/
@@ -40,7 +40,7 @@ telegram-blockchain-bot/
 └── requirements.txt        # Python dependencies
 ```
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -61,7 +61,12 @@ telegram-blockchain-bot/
    ```
 
 3. **Set up environment variables:**
-   Create a `.env` file in the root directory:
+   Copy the example environment file and add your credentials:
+   ```bash
+   cp .env.example .env
+   ```
+   
+   Then edit `.env` with your actual values:
    ```env
    TELEGRAM_TOKEN=your_telegram_bot_token_here
    ETH_RPC=your_ethereum_rpc_endpoint_here
@@ -91,7 +96,7 @@ telegram-blockchain-bot/
 - UNI (Uniswap)
 - MKR (Maker)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -99,19 +104,19 @@ telegram-blockchain-bot/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🛠️ Built With
+## Built With
 
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) - Telegram Bot API wrapper
 - [web3.py](https://github.com/ethereum/web3.py) - Ethereum interaction library
 - [requests](https://github.com/psf/requests) - HTTP library for API calls
 
-## 📞 Support
+##  Support
 
-If you have any questions or issues, please open an issue on GitHub.
+For questions, suggestions, or bug reports, please open an issue in this repository
 
 ---
 
